@@ -15,7 +15,7 @@ main {
 
 #sidebar {
     width: 25%;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -139,6 +139,7 @@ input[type="text"] {
 
 .banner>img {
     width: 100%;
+    margin-top: 20px;
 }
 
 .menu {
@@ -202,12 +203,14 @@ input[type="text"] {
     }
 
     #sidebar.active {
+        margin-top: 30px;
         width: 50%;
         position: fixed;
         animation: slide-in 0.6s ease-in-out;
     }
 
     #sidebar:not(.active) {
+        margin-top: 30px;
         position: fixed;
         animation: slide-out 0.6s ease-in-out forwards;
     }
@@ -279,12 +282,14 @@ input[type="text"] {
     }
 
     #sidebar.active {
+        margin-top: 30px;
         width: 50%;
         position: fixed;
         animation: slide-in 0.6s ease-in-out;
     }
 
     #sidebar:not(.active) {
+        margin-top: 30px;
         position: fixed;
         animation: slide-out 0.6s ease-in-out forwards;
     }
